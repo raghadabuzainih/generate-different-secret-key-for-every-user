@@ -4,7 +4,7 @@ const app = express()
 const router = require('./router/router')
 const cookieParser = require('cookie-parser')
 
-const dbURI = 'mongodb+srv://face_raghad:raghad123@cluster0.5j4sjdd.mongodb.net/abd?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://[username]:[password]@cluster0.5j4sjdd.mongodb.net/[dbname]?retryWrites=true&w=majority';
 
 //middleware
 app.use(cookieParser())
